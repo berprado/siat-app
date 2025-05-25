@@ -1,0 +1,7 @@
+﻿fastapi[all]
+python-dotenv
+zeep
+pydantic
+pydantic-settings
+sqlalchemy
+pymysql
