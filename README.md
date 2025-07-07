@@ -1,9 +1,11 @@
 DOCUMENTACIÓN DEL SCRIPT
 =========================
+
 Este script configura un entorno completo para el desarrollo de un sistema SIAT con FastAPI (backend) y React (frontend).
 
-Componentes:
+Componentes
 ------------
+
 1. **Validación de herramientas:** Asegura que `python`, `pip`, `npm`, y `git` estén disponibles en el sistema.
 2. **Gestión de carpeta del proyecto:** Borra el proyecto existente si el usuario lo autoriza.
 3. **Estructura del proyecto:** Crea carpetas `backend` y `frontend` dentro de `siat-app`.
@@ -18,8 +20,9 @@ Componentes:
 7. **Script `run.ps1`:** Lanza backend y frontend simultáneamente en terminales separadas.
 8. **Control de versiones:** Se crea repo Git y `.gitignore` con exclusiones estándar.
 
-Uso:
+Uso
 ----
+
 ```bash
 # Clonar proyecto
 https://github.com/berprado/siat-app
@@ -42,24 +45,28 @@ npm run dev
 ./run.ps1
 ```
 
-Dependencias backend:
+Dependencias backend
 ---------------------
+
 - `fastapi[all]`
 - `python-dotenv`
 - `zeep`
 - `pydantic`
 - `pydantic-settings`
 
-Licencia:
+Licencia
 ---------
+
 Uso interno para integrar servicios SIAT con estructura limpia y modular.
 
-Repositorio GitHub:
+Repositorio GitHub
 -------------------
-https://github.com/berprado/siat-app
 
-Badges:
+<https://github.com/berprado/siat-app>
+
+Badges
 -------
+
 ![Python](https://img.shields.io/badge/python-3.12-blue)
 ![FastAPI](https://img.shields.io/badge/fastapi-uvicorn-green)
 ![React](https://img.shields.io/badge/react-frontend-blue)

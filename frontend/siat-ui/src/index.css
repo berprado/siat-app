@@ -1,7 +1,7 @@
 ﻿/* Directivas de Tailwind CSS */
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import 'tailwindcss/base.css';
+@import 'tailwindcss/components.css';
+@import 'tailwindcss/utilities.css';
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
